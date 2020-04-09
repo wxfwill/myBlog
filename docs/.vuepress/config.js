@@ -2,7 +2,7 @@ module.exports = {
   // 页面标题
   title: 'will个人主页',
   // 网页描述
-  description: '记录前端点点滴滴',
+  description: '生活不止眼前的苟且还有诗和远方的田野',
   dest: './myBlog',
   base: '/myBlog/',
   head: [
@@ -30,17 +30,15 @@ module.exports = {
     editLinkText: '编辑此页',
     // 导航
     nav: [
-      { text: '前端面试之道',link: '/interview/'},
-      { text: 'Js书籍', items: [
-          { text: '你不知道的JavaScript(上)', link: '/books/你不知道的javascript上'}, 
-          { text: '你不知道的JavaScript(中)', link: '/books/你不知道的javascript中'},
-          { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
+      { text: '面试指导',link: '/interview/'},
+      {
+        text: 'MVVM', items: [
+          {text: 'Vue', link: '/mvvm/vue/'},
+          {text: 'React', link: '/mvvm/react/'}
         ]
       },
-      { text: 'Vue', link: '/vue/'},
+      { text: '工具', link: '/tool/'},
       { text: 'JavaScript', link: '/JavaScript/'},
-      {text: 'css', link: '/css/'},
-      { text: 'Webpack',link: '/webpack/'},
       { text: '基础配置功能',link: '/common/'}
   ]},
   configureWebpack: {

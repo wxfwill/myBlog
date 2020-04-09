@@ -1,16 +1,14 @@
 ---
 home: true
 lang: zh-CN
-heroText: VuePress Test
+heroText: Personal Show
 heroImage: /logo.png
-actionText: 开始
+actionText: 开始->
 actionLink: /vue/
 features:
-- title: test1
-  details: 专注写作前端博客，记录日常所得。
-- title: test2
-  details: 故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。
-- title: test2
-  details: 深圳
-footer: Copyright © 2019-present wangtunan
+- title: 工作
+  details: 做一个有追求的搬运工，什么时候也别忘记学习，因为学习是提高能力的阶梯
+- title: 生活
+  details: 脚下的路还很长，活着就要坚决走下去。多一点包容，生活会越来越美的。
+footer: 你赤手空拳来到人世间,为找到那片海不顾一切
 ---
