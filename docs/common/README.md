@@ -1,4 +1,5 @@
 ---
+sidebar: auto
 prev: false
 next: /common/next1.md
 ---
