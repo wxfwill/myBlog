@@ -86,17 +86,16 @@ module.exports = {
           title: 'javascript问题',
           collapsable: true,
           children: [
-            '/problem/JavaScript.md',
-            '/problem/css.md',
-            '/problem/vue.md',
-            '/problem/uniapp.md'
+            '/problem/javascript/js.md',
+            '/problem/javascript/test.md',
           ]
         },
         {
           title: 'css问题',
           collapsable: true,
           children: [
-            '/problem/css.md'
+            '/problem/css/css1.md',
+            '/problem/css/css2.md'
           ]
         },
         {
@@ -125,6 +124,23 @@ module.exports = {
           collapsable: true,
           children: [
             '/problem/git.md'
+          ]
+        }
+      ],
+      '/keeplearning/JavaScript/': [
+        {
+          title: 'JavaScript异步编程',
+          collapsable: false,
+          children: [
+            '/keeplearning/JavaScript/js-异步编程.md',
+            '/keeplearning/JavaScript/js-解析call-apply-bind.md'
+          ]
+        },
+        {
+          title: 'JavaScript经典问题',
+          collapsable: true,
+          children: [
+            '/keeplearning/JavaScript/js-problem.md'
           ]
         }
       ]
