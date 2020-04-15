@@ -75,6 +75,7 @@ module.exports = {
         items: [
           { text: "开发工具", link: "/favorites/tool/" },
           { text: "网址收藏", link: "/favorites/website/" },
+          { text: "精品分享", link: "/favorites/share/" }
         ],
       },
       {text: '问题集锦', link: '/problem/'},
@@ -140,7 +141,8 @@ module.exports = {
           title: 'JavaScript经典问题',
           collapsable: true,
           children: [
-            '/keeplearning/JavaScript/js-problem.md'
+            '/keeplearning/JavaScript/js-problem.md',
+            '/keeplearning/JavaScript/js-server.md'
           ]
         }
       ]

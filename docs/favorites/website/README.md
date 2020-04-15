@@ -50,6 +50,11 @@ sidebar: auto
 * [在线手册](http://www.shouce.ren/api/index)
 * [给力大辞典](https://www.dacidian.net/)
 
+## GitHub大佬
+* [王福朋](https://github.com/wangfupeng1988)
+* [黄轶](https://github.com/ustbhuangyi)
+
+
 ## 友情链接
 **收藏博客**
 * [Damonare](https://blog.damonare.cn/)

@@ -42,6 +42,7 @@ function person(per) {
         name: '李四',
         age: 18
     }
+    // {} 等于 new Object()，创建了一个新的对象，是新的地址了
     return per;
 }
 var p1 = {
@@ -236,8 +237,18 @@ p1.getName();
 
 ### 闭包
 ::: tip
-当一个函数能够记住并访问它所在的词法作用域的时候，就产生了闭包，即使函数式在词法作用域之外执行
+闭包的定义其实很简单：函数 A 内部有一个函数 B，函数 B 可以访问到函数 A 中的变量，那么函数 B 就是闭包
 :::
+```JS
+function A() {
+  let a = 1
+  window.B = function () {
+      console.log(a)
+  }
+}
+A()
+B() // 1
+```
 
 #### 闭包的几种表现形式
 ::: tip
