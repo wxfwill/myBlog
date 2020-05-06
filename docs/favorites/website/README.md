@@ -31,6 +31,7 @@ sidebar: auto
 * [React.js 小书 - 胡子大哈](http://huziketang.mangojuice.top/books/react/)、[React.js 小书 - 介绍](https://www.jianshu.com/p/5a5d8313eed7)、[GitHub](https://github.com/huzidaha/react-naive-book)
 * [Docker —— 从入门到实践](https://yeasy.gitbooks.io/docker_practice/)
 * [Node.js 概述 - 阮一峰](https://javascript.ruanyifeng.com/nodejs/basic.html)
+* [Node入门](http://nodebeginner.org/index-zh-cn.html)
 
 ## 开发交流与技术社区
 * [StackOverflow](https://stackoverflow.com/)
