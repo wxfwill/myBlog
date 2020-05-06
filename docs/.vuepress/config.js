@@ -142,6 +142,7 @@ module.exports = {
           collapsable: true,
           children: [
             '/keeplearning/JavaScript/js-problem.md',
+            '/keeplearning/JavaScript/js-函数作用域-执行上下文-作用域链.md',
             '/keeplearning/JavaScript/js-server.md'
           ]
         }

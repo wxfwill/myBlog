@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: Personal Show
 heroImage: /logo.png
 actionText: 开始->
-actionLink: /vue/
+actionLink: /keeplearning/JavaScript/js-problem.md
 features:
 - title: 工作
   details: 做一个有追求的搬运工，什么时候也别忘记学习，因为学习是提高能力的阶梯
