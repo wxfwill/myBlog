@@ -149,6 +149,7 @@ module.exports = {
       ]
     }
   },
+  // plugins: ['vuepress-plugin-export'],
   configureWebpack: {
     resolve: {
       // 静态资源的别名

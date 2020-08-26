@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add -D vuepress
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\svn\bin;D:\nvms\nvm;C:\Program Files\nodejs;D:\nvms\nvm\v10.15.1\node_modules\brew;D:\TortoiseGit-2.10.0.2-64bit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;D:\nvm\nvm\v10.15.3\node_modules\npm;D:\nvms\nvm;C:\Program Files\nodejs;D:\sublie\Sublime Text Build 3176 x64;D:\nvms\nvm\v10.15.1\node_modules\brew;C:\Users\Administrator\AppData\Local\BypassRuntm;D:\Bandizip\
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v6\npm-ignore-4.0.6-750e3db5862087b4737ebac8207ffd1ef27b25fc-integrity\node_modules\ignore\index.d.ts' -> 'G:\vuepress\blog-will\node_modules\@vuepress\shared-utils\node_modules\ignore\index.d.ts'
+
+npm manifest: 
+  {
+    "name": "vuepress-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs",
+      "depoly": "depoly.sh"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "vuepress-plugin-export": "^0.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
