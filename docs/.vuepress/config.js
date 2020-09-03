@@ -75,79 +75,63 @@ module.exports = {
         items: [
           { text: "开发工具", link: "/favorites/tool/" },
           { text: "网址收藏", link: "/favorites/website/" },
-          { text: "精品分享", link: "/favorites/share/" }
+          { text: "精品分享", link: "/favorites/share/" },
         ],
       },
-      {text: '问题集锦', link: '/problem/'},
+      { text: "问题集锦", link: "/problem/" },
       { text: "基础配置功能", link: "/common/" },
     ],
     sidebar: {
-      '/problem/': [
+      "/problem/": [
         {
-          title: 'javascript问题',
+          title: "javascript问题",
           collapsable: true,
-          children: [
-            '/problem/javascript/js.md',
-            '/problem/javascript/test.md',
-          ]
+          children: ["/problem/javascript/js.md", "/problem/javascript/test.md"],
         },
         {
-          title: 'css问题',
+          title: "css问题",
           collapsable: true,
-          children: [
-            '/problem/css/css1.md',
-            '/problem/css/css2.md'
-          ]
+          children: ["/problem/css/css1.md", "/problem/css/css2.md"],
         },
         {
-          title: 'vue问题',
+          title: "vue问题",
           collapsable: true,
-          children: [
-            '/problem/vue.md'
-          ]
+          children: ["/problem/vue.md"],
         },
         {
-          title: 'uniapp问题',
+          title: "uniapp问题",
           collapsable: true,
-          children: [
-            '/problem/uniapp.md'
-          ]
+          children: ["/problem/uniapp.md"],
         },
         {
-          title: 'nginx问题',
+          title: "nginx问题",
           collapsable: true,
-          children: [
-            '/problem/nginx.md'
-          ]
+          children: ["/problem/nginx.md"],
         },
         {
-          title: 'git问题',
+          title: "git问题",
           collapsable: true,
-          children: [
-            '/problem/git.md'
-          ]
-        }
+          children: ["/problem/git.md"],
+        },
       ],
-      '/keeplearning/JavaScript/': [
+      "/keeplearning/JavaScript/": [
         {
-          title: 'JavaScript异步编程',
+          title: "JavaScript异步编程",
           collapsable: false,
-          children: [
-            '/keeplearning/JavaScript/js-异步编程.md',
-            '/keeplearning/JavaScript/js-解析call-apply-bind.md'
-          ]
+          children: ["/keeplearning/JavaScript/js-异步编程.md", "/keeplearning/JavaScript/js-解析call-apply-bind.md"],
         },
         {
-          title: 'JavaScript经典问题',
+          title: "JavaScript经典问题",
           collapsable: true,
           children: [
-            '/keeplearning/JavaScript/js-problem.md',
-            '/keeplearning/JavaScript/js-函数作用域-执行上下文-作用域链.md',
-            '/keeplearning/JavaScript/js-server.md'
-          ]
-        }
-      ]
-    }
+            "/keeplearning/JavaScript/js-problem.md",
+            "/keeplearning/JavaScript/js-函数作用域-执行上下文-作用域链.md",
+            "/keeplearning/JavaScript/js-工具方法.md",
+            "/keeplearning/JavaScript/js-server.md",
+          ],
+        },
+      ],
+    },
   },
   // plugins: ['vuepress-plugin-export'],
   configureWebpack: {
